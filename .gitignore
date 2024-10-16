@@ -1,8 +1,5 @@
 # Data
-notebooks/data/
-notebooks/data/*
-!notebooks/data/README.md
-!notebooks/data/images/README.md
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
