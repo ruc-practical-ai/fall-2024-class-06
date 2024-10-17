@@ -1,5 +1,6 @@
 # Data
-
+notebooks/data/caltech101
+notebooks/data/stanford_cars
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
