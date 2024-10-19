@@ -104,10 +104,10 @@ echo "Getting convenient bash shortcuts..."
 developer_home="/home/$user_name"
 
 add_aliases() {
-    touch $developer_home/.bash_profile
+    touch $developer_home/.bashrc
     file_name=$(basename "$1")
     curl -o "$developer_home/$file_name" $1
-    echo "source ~/$file_name" >> $developer_home/.bash_profile
+    echo "source ~/$file_name" >> $developer_home/.bashrc
 }
 
 add_aliases $command_line_aliases_file
@@ -136,7 +136,7 @@ fi
 
 echo "Adding Poetry to path..."
 
-echo "export PATH=\"$developer_home/$poetry_dir:\$PATH\"" >> $developer_home/.bash_profile
+echo "export PATH=\"$developer_home/$poetry_dir:\$PATH\"" >> $developer_home/.bashrc
 
 echo "Configuring Poetry virtual environments..."
 

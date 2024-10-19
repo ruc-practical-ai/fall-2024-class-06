@@ -8,7 +8,7 @@
     },
     "waitFor": "onCreateCommand",
     "onCreateCommand": "sudo bash .devcontainer/configure_environment.sh",
-    "postAttachCommand": "sudo bash .devcontainer/post_attach.sh",
+    "postAttachCommand": "bash .devcontainer/post_attach.sh",
     "customizations": {
         "codespaces": {
             "openFiles": []
